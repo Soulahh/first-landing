@@ -190,3 +190,32 @@ div.containerimgtext2{
     border: #3882F6;
     border: 20px;
 }
+
+.quote-part{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+    flex-direction: column;
+}
+
+.quote-part p{
+
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
+}
+
+div.signature{
+    margin: 0 400px 0 800px;
+    flex-wrap: nowrap;
+    font-size: 30px;
+    font-weight: bold;
+}
