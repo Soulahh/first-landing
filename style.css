@@ -109,7 +109,7 @@ nav.navbar{
 
 .main-text{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     flex-wrap: wrap;
     width: 400px;
     color: #F9FAF8;
@@ -218,4 +218,32 @@ div.signature{
     flex-wrap: nowrap;
     font-size: 30px;
     font-weight: bold;
+}
+
+.call-to-action-part{
+    background-color: #F9FAF8;
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div.blue-call-to-action{
+    background-color: #3882F6;
+    height: 10vw;
+    width: 65%;
+    border-radius: 15px;
+    margin: 150px;
+    display: flex;
+
+}
+
+div.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
