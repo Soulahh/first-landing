@@ -9,14 +9,14 @@
 }
 
 body{
-    margin: 90px 0 0 0;
+    margin: 0;
     background-color: #1f2937;
 }
 
 p{
-    margin: 0 0 20px 70px;
+    margin: 0 0 20px 3.6vw;
     color:white;
-    width: 600px
+    width: 600px;
 
 }
 
@@ -41,14 +41,14 @@ div.flex-container{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    padding: 0 350px;
+    padding: 0 2%;
     box-sizing: border-box;
     
     
 } 
 
 .icon{
-    height: 50px;
+    height: 3vw;
     clip-path: circle();
     margin: 10;
 }
@@ -69,35 +69,41 @@ a{
 }
 
 .menu-item:hover{
-    animation: move-up 1s ease-in-out;
+    animation: color-change 2s ease-in-out infinite;
 }
 
 nav.navbar{
     padding: 0 0 0 0;
 }
 
-@keyframes move-up{
+@keyframes color-change{
     0%{
-        transform: translateY(0px);
+        color: paleturquoise;
     }
-    
-    10%{
-        color: #906BF2;
+
+    12.5%{
+
+        color: turquoise;
     }
 
     25%{
-        color: #E86BF2;
+
+        color: aqua;
     }
+
     50%{
-        transform: translateY(-10px);
+
+        color: lightseagreen;
     }
+
     75%{
-        color:#6B72F2;
-        transform: translateY(0px);
+
+        color: lightgreen;
     }
 
     100%{
-        color:#F26BB3;
+
+        color: white;
     }
 }
 
@@ -111,7 +117,7 @@ nav.navbar{
     font-size: 48px;
     font-weight: bolder;
     flex-wrap: wrap;
-    width: 400px;
+    width: 15vw;
     color: #F9FAF8;
 }
 
@@ -135,6 +141,7 @@ nav.navbar{
 .image{
     width: 600px;
     height: auto;
+    border-radius: 2px;
 }
 
 .button{
@@ -143,7 +150,7 @@ nav.navbar{
     color: white;
     border-radius: 5px;
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 8px 15px;
     margin: 0 0 20px 70px;
 }
 
@@ -251,7 +258,7 @@ div.call-to-action-text{
 .cta-bold{
     font-size: 24px;
     font-weight:700;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     color: #F9FAF8;
 }
 
@@ -272,6 +279,44 @@ div.final-part{
     background-color: #1f2937;
     color: #F9FAF8;
     text-align: center;
-    padding: 2vw;
-    font-size: 2vw;
+    padding: 1.2vw;
+    font-size: 1.5vw;
+}
+
+.signup:hover{
+    animation: change-color 2s ease-in-out infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change-color {
+    0%{
+        border: 2px solid paleturquoise;
+        color: paleturquoise;
+    }
+
+    12.5%{
+        border: 2px solid turquoise;
+        color: turquoise;
+    }
+
+    25%{
+        border-color: aqua;
+        color: aqua;
+    }
+
+    50%{
+        border-color: lightseagreen;
+        color: lightseagreen;
+    }
+
+    75%{
+        border-color: lightgreen;
+        color: lightgreen;
+    }
+
+    100%{
+        border-color: white;
+        color: white;
+    }
+    
 }
