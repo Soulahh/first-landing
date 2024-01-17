@@ -133,7 +133,7 @@ nav.navbar{
 }
 
 .image{
-    width: 700px;
+    width: 600px;
     height: auto;
 }
 
@@ -238,6 +238,7 @@ div.blue-call-to-action{
     border-radius: 15px;
     margin: 150px;
     display: flex;
+    align-items: center;
 
 }
 
@@ -246,4 +247,31 @@ div.call-to-action-text{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.cta-bold{
+    font-size: 24px;
+    font-weight:700;
+    margin-bottom: 0;
+    color: #F9FAF8;
+}
+
+.cta-small{
+    color: #E5E7EB;
+}
+
+.signup{
+    padding: 20px 60px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    color: #F9FAF8;
+    margin: 5px 0 0 290px;
+    font-weight: bold;
+}
+
+div.final-part{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2vw;
+    font-size: 2vw;
 }
