@@ -5,7 +5,7 @@ My first ever landing page, a personal project and part of The Odin Project curr
 
 ## Introduction
 
-Welcome to my awesome project! This repository contains the code for , which is inspired by Inuyasha.
+Welcome to my awesome project! This repository contains the code for https://soulahh.github.io/first-landing/, which is inspired by Inuyasha.
 
 ## Image Disclaimer
 
@@ -17,7 +17,7 @@ Welcome to my awesome project! This repository contains the code for , which is 
 
 ### Miroku Image
 
-![Miroku Image Disclaimer]((https://i.pinimg.com/originals/33/11/60/3311602b5ccd9b6da04e89378c6b217c.jpg))
+![Miroku Image Disclaimer](https://i.pinimg.com/originals/33/11/60/3311602b5ccd9b6da04e89378c6b217c.jpg)
 
 *This image is used under the principles of fair use for educational or informational purposes. The copyright of this image belongs to its respective owner. If you are the copyright owner and have any concerns, please [contact us](mailto:freitastiago1910@gmail.com) for prompt removal or appropriate credit.*
 
